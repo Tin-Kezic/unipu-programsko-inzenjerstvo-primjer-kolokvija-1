@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, defineEmits, useTemplateRef, computed } from 'vue'
+import { ref, defineEmits, useTemplateRef, computed, Transition, onMounted, watch } from 'vue'
 const props = defineProps<{
     opis: string,
     zavrseno: boolean,
