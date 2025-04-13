@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useBrojačStavki } from '@/useBrojačStavki';
 import TodoStavka from './components/ToDoStavka.vue'
-import { onMounted, ref, watch, type Ref } from 'vue';
+import { onMounted, watch } from 'vue';
 import { stavke, sortiraneStavke } from '@/main';
 const { brojač, postavi } = useBrojačStavki()
 onMounted(() => {
